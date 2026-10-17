@@ -1,0 +1,31 @@
+name: gen_open_42
+closed: false
+width: 5.5
+cone_spacing: 5.0
+start_offset: 8.0
+finish_runoff: 40.0
+origin: [0.0, 0.0, 0.0]
+segments:
+- {type: straight, length: 30.0}
+- {type: slalom, cycles: 2, wavelength: 28.9, swing: 2.7, first: left}
+- {type: straight, length: 37.1}
+- {type: slalom, cycles: 3, wavelength: 25.6, swing: 2.4, first: left}
+- {type: slalom, cycles: 1, wavelength: 31.2, swing: 3.3, first: right}
+- {type: arc, radius: 17.5, angle: -63.8}
+- {type: slalom, cycles: 2, wavelength: 28.1, swing: 2.4, first: right}
+- {type: slalom, cycles: 1, wavelength: 33.1, swing: 3.3, first: left}
+- {type: straight, length: 13.4}
+- {type: straight, length: 34.5}
+- {type: arc, radius: 9.8, angle: -163.0, width: 6.5}
+- {type: arc, radius: 13.9, angle: 67.8}
+- {type: arc, radius: 18.7, angle: -86.2}
+- {type: slalom, cycles: 3, wavelength: 24.5, swing: 2.8, first: right}
+- {type: straight, length: 18.6}
+- {type: straight, length: 33.9}
+- {type: arc, radius: 11.0, angle: 166.1, width: 6.5}
+- {type: arc, radius: 13.1, angle: -100.1}
+- {type: straight, length: 55.0}
+obstacles:
+- {s: 327.0, offset: -1.6, width: 1.71}
+- {s: 378.8, offset: 1.63, width: 1.65}
+- {s: 488.6, offset: 1.73, width: 1.44}
